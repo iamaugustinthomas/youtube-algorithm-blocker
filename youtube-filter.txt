@@ -1,0 +1,31 @@
+! Title: YouTube Distraction & Algorithm Blocker
+! Description: Blocks the YouTube home feed, sidebar recommendations, Shorts, and end screens to prevent algorithmic rabbit holes.
+! Homepage: https://github.com
+! Expires: 7 days
+! Version: 1.0.0
+
+! ----------------------------------------------------------------
+! 1. HOME FEED BLOCKER
+! ----------------------------------------------------------------
+! Completely hides the YouTube Home Feed (leaves it blank)
+youtube.com###page-manager > ytd-browse[page-type="home"]
+
+! ----------------------------------------------------------------
+! 2. SIDEBAR RECOMMENDATIONS
+! ----------------------------------------------------------------
+! Removes the "Up Next" sidebar when watching videos
+youtube.com##ytd-watch-flexy #secondary
+
+! ----------------------------------------------------------------
+! 3. SHORTS REMOVAL
+! ----------------------------------------------------------------
+! Hides the Shorts rows from search results and feeds
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+
+! ----------------------------------------------------------------
+! 4. END SCREEN ELEMENTS
+! ----------------------------------------------------------------
+! Hides the tile video recommendations that appear over the player at the end of a video
+youtube.com##.html5-endscreen
+youtube.com##.ytp-ce-element
