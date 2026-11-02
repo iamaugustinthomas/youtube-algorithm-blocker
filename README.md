@@ -7,8 +7,7 @@ A lightweight custom filter list for **AdGuard**, **uBlock Origin**, and **Brave
 ## ⚡ Quick Install
 
 Click the badge below to automatically import and subscribe to this filter list in your ad blocker:
-
-[![Subscribe to Filter](https://shields.io)](abp:subscribe?location=https%3A%2F%2Fraw.githubusercontent.com%2Fiamaugustinthomas%2Fyoutube-algorithm-blocker%2Frefs%2Fheads%2Fmain%2Fyoutube-filter.txt&title=YouTube%20Distraction%20%26%20Algorithm%20Blocker)
+[![(Subscribe to Filter)](https://shields.io)](abp:subscribe?location=https%3A%2F%://githubusercontent.com%2Fiamaugustinthomas%2Fyoutube-algorithm-blocker%2Frefs%2Fheads%2Fmain%2Fyoutube-filter.txt&title=YouTube%20Distraction%20%26%20Algorithm%20Blocker)
 
 
 ---
